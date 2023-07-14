@@ -66,26 +66,21 @@ input, button {
     padding: 8px;
 }
 
-ul li {
-    max-width: 25%;;
-    position: relative;
-}
-
 .riscado {
     text-decoration: line-through;
 }
 
 
-table { 
+ul { 
     justify-content: center;
-    display: flex;
+    display: table;
     padding: 10px;
     margin: auto;
     font-size: larger;
     font-weight: bold;
 }
 
-td { 
+li { 
     cursor: pointer;
     padding: 2px;
 }
