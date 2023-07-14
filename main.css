@@ -11,9 +11,6 @@ h1 {
     font-style: italic;
 }
 
-span {
-    display: block;
-}
 
 
 header {
@@ -51,14 +48,6 @@ form h2 {
     margin-bottom: 16px;
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    font-size: larger;
-    flex-wrap: wrap;
-}
 
 button {
     background-color: #019c35;
@@ -86,6 +75,17 @@ ul li {
     text-decoration: line-through;
 }
 
-span {
+
+table { 
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    font-size: larger;
+    font-weight: bold;
+}
+
+td { 
     cursor: pointer;
+    padding: 2px;
 }
