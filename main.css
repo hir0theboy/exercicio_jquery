@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+h1 { 
+    background-color: rgb(66, 190, 228);
+    font-style: italic;
+}
+
 span {
     display: block;
 }
